@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AmplitudeJS - Single Song Player</title>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.2.0/dist/amplitude.js"></script>
+        <link type="text/css" rel="stylesheet" href="./dist/css/styles.css"/>
+        <link rel="icon" href="../resources/img/favicon.ico">
+    </head>
+
+    <body class="bg-gradient-to-r from-green-400 to-blue-500">
+        <div class="w-screen h-screen flex items-center justify-center">
+            
+            <div id="single-song-player" class="shadow flex flex-col rounded max-w-sm mx-auto">
+                <img class="w-full rounded-t-lg" data-amplitude-song-info="cover_art_url"/>
+                <progress id="song-played-progress" class="amplitude-song-played-progress bg-progress-background appearance-none w-full h-1 block cursor-pointer border-0 "></progress>
+                
+                <div class="w-full flex flex-col bg-bottom-container rounded-b-lg">
+                    <div class="w-full flex items-center justify-between pt-1 px-3">
+                        <span class="font-sans opacity-50 text-xs text-white">
+                            <span class="amplitude-current-minutes"></span>:<span class="amplitude-current-seconds"></span>
+                        </span>
+                        <span class="font-sans opacity-50 text-xs text-white">
+                            <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
+                        </span>
+                    </div>
+                    <div class="w-full flex items-center justify-between mt-3 px-3 pb-3">
+                        <div class="amplitude-play-pause w-20 h-20 cursor-pointer"></div>
+                        <div class="flex flex-col">
+                            <span data-amplitude-song-info="name" class="text-center text-lg text-white block font-sans"></span>
+                            <span data-amplitude-song-info="artist" class="text-center text-sm text-white block font-sans"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+
+    <script type="text/javascript" src="./dist/js/app.js"></script>
+</html>

@@ -1,0 +1,9 @@
+div.amplitude-play-pause.amplitude-paused {
+    background: url('../img/play.svg');
+    background-size: cover;
+}
+
+div.amplitude-play-pause.amplitude-playing {
+    background: url('../img/pause.svg');
+    background-size: cover;
+}

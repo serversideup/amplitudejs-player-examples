@@ -1,0 +1,23 @@
+{
+  "name": "amplitudejs-visualization-player",
+  "version": "1.0.0",
+  "description": "Showcases a visualization with AmplitudeJS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/css/base.css -o dist/css/styles.css"
+  },
+  "keywords": [
+    "html5",
+    "audio",
+    "amplitudejs"
+  ],
+  "author": "Dan Pastori",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.3"
+  }
+}

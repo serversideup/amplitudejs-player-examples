@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "./components/progress.css";
+@import "./components/play-pause.css";
+
+@import "tailwindcss/utilities";
