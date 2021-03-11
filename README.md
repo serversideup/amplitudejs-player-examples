@@ -6,8 +6,8 @@ This repo is dedicated to showing off the power of [AmplitudeJS](https://github.
 [ ] Update links to examples on CodePen
 [ ] Upload links in 521 documentation
 [ ] Update CodePen CSS to be compiled TailwindCSS
-[ ] Make a template that can be copy and pasted (This will take care of 9/10 steps below 👇)
-[ x ] Write in main AmplitudeJS repo on where to find the templates
+[ x ] Make a template that can be copy and pasted (This will take care of 9/10 steps below 👇)
+[ ] Write in main AmplitudeJS repo on where to find the templates
 
 ## How to Contribute an Example Player
 To ensure similar structure across all player examples, I built a small template to follow. All you have to do is follow the instructions below 👇 and you get a nice shell for an AmplitudeJS player and TailwindCSS build tools! 
@@ -28,9 +28,8 @@ Once you are in the new directory for your player, open the `package.json` and a
 ### Step 3: Install NPM Packages
 Now that you have everything set up, you just need to run `npm install`! All of the packages should be pulled down and ready to go!
 
-
-### Commands
-To compile your CSS simply run: `npm run build:css`.
+### Step 4: Compile CSS
+To do the initial compilation of CSS simply run: `npm run build:css`. This will build your CSS and you will be ready to start creating your player.
 
 ### Other notes
 * If you are using other JS, configure the build to export the compiled JS to `/dist/js/app.js`
