@@ -3,11 +3,11 @@
 This repo is dedicated to showing off the power of [AmplitudeJS](https://github.com/serversideup/amplitudejs). All players are designed to be re-usable, built on [TailwindCSS](https://tailwindcss.com/) and ready for your application. If you are interested in creating your own player for submission, follow the instructions below.
 
 ## TODO:
-[ ] Update links to examples on CodePen
-[ ] Upload links in 521 documentation
-[ ] Update CodePen CSS to be compiled TailwindCSS
-[ x ] Make a template that can be copy and pasted (This will take care of 9/10 steps below 👇)
-[ ] Write in main AmplitudeJS repo on where to find the templates
+🔲 Update links to examples on CodePen  
+🔲 Upload links in 521 documentation  
+🔲 Update CodePen CSS to be compiled TailwindCSS  
+✅ Make a template that can be copy and pasted (This will take care of 9/10 steps below 👇)  
+🔲 Write in main AmplitudeJS repo on where to find the templates
 
 ## How to Contribute an Example Player
 To ensure similar structure across all player examples, I built a small template to follow. All you have to do is follow the instructions below 👇 and you get a nice shell for an AmplitudeJS player and TailwindCSS build tools! 
