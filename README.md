@@ -29,7 +29,7 @@ Once you are in the new directory for your player, open the `package.json` and a
 Now that you have everything set up, you just need to run `npm install`! All of the packages should be pulled down and ready to go!
 
 ### Step 4: Compile CSS
-To do the initial compilation of CSS simply run: `npm run build:css`. This will build your CSS and you will be ready to start creating your player.
+To do the initial compilation of CSS simply run: `npx tailwindcss -i ./src/css/base.css -o ./dist/css/styles.css --watch`. This will build your CSS and you will be ready to start creating your player.
 
 ### Other notes
 * If you are using other JS, configure the build to export the compiled JS to `/dist/js/app.js`
