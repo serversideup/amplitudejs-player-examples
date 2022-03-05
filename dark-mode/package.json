@@ -1,0 +1,17 @@
+{
+  "name": "dark-mode-player",
+  "version": "1.0.0",
+  "description": "Inspiration from Steve Schoger's player design",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "html5",
+    "audio",
+    "amplitudejs"
+  ],
+  "author": "Dan Pastori",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
